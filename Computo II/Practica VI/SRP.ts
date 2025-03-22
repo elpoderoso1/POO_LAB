@@ -1,4 +1,4 @@
-// Principio de Responsabilidad Únic
+// Principio de Responsabilidad Única
 
 // Forma Incorrecta 
 
