@@ -1,11 +1,11 @@
 import "reflect-metadata";
 import { container } from "./config/inversify.config";
-import { TYPES } from "../types/types";
+import { TYPES } from "./types/types";
 import { Product } from "./models/Product";
 import { Customer } from "./models/Customer";
 import { Order } from "./models/Order";
-import { OrderService } from "../services/OrderService";
-import { IPaymentProcessor } from "../services/PaymentService";
+import { OrderService } from "./services/OrderService";
+import { IPaymentProcessor } from "./services/PaymentService";
 import { INotificationService } from "./services/Emailservice";
 
 const product1 = new Product(1, "Laptop", 1200);
