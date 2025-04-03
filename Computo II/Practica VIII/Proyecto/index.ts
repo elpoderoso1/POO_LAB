@@ -7,7 +7,6 @@ import { Order } from "./models/Order";
 import { OrderService } from "../services/OrderService";
 import { IPaymentProcessor } from "../services/PaymentService";
 import { INotificationService } from "./services/Emailservice";
-import { OrderService } from "./services/OrderService";
 
 const product1 = new Product(1, "Laptop", 1200);
 const product2 = new Product(2, "Mouse", 50);
