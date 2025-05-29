@@ -1,0 +1,19 @@
+#Patron Obervador
+Permite que un objeto (sujeto) notifique automáticamente a una lista de observadores cuando su estado cambia.
+    Ideal para sistemas de eventos o notificaciones en tiempo real.
+
+#Patron Mediador
+Define un objeto central (mediador) que controla cómo interactúan un conjunto de objetos, promoviendo la desacoplamiento entre ellos.
+    Evita la comunicación directa entre objetos, manteniendo el sistema más limpio.
+
+Ejercicio combinado: Chat en una sala
+Reglas:
+Varios usuarios se conectan a una sala.
+
+Cada usuario envía mensajes al mediador (ChatRoom).
+
+El mediador notifica a todos los observadores (usuarios suscritos).
+
+Se aplican Observer para notificar a los usuarios.
+
+Se aplica Mediator para coordinar la comunicación.
